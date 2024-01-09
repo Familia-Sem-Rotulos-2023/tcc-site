@@ -44,19 +44,13 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/cacos-brasil.jpg";
 
 function Presentation() {
   return (
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "info",
-        }}
         sticky
       />
       <MKBox
@@ -83,17 +77,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
-            </MKTypography>
-            <MKTypography
-              variant="body1"
-              color="white"
-              textAlign="center"
-              px={{ xs: 6, lg: 12 }}
-              mt={1}
-            >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Afinal, o que é uma família?{" "}
             </MKTypography>
           </Grid>
         </Container>
